@@ -1,0 +1,16 @@
+*.o
+*.so
+*.rlib
+*.dll
+
+*.exe
+
+target
+debug
+release
+.idea
+.vscode
+
+Cargo.lock
+*.bak
+.env
