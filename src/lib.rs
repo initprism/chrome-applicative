@@ -24,6 +24,8 @@ pub use browser::{
 
 #[cfg(feature = "fetch")]
 pub use browser::FetcherOptions;
+#[cfg(feature = "fetch")]
+pub use browser::fetcher;
 
 pub mod browser;
 pub mod protocol;
